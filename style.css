@@ -1,0 +1,348 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Spline Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("skyscrapers-from-low-angle-view.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.first-box h1 {
+
+    text-align: center;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 85px;
+    letter-spacing: 30px;
+    color: aliceblue;
+    line-height: 150px;
+}
+
+.first-box h5 {
+    text-align: center;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-size: 55px;
+    letter-spacing: 15px;
+    color: aliceblue;
+    font-weight: 200;
+    line-height: 20px;
+
+}
+
+.first-box {
+    height: 230px;
+    width: 100%;
+    background: rgb(0,255,166);
+background: linear-gradient(90deg, rgba(0,255,166,1) 0%, rgba(0,75,73,1) 50%, rgba(12,191,156,1) 100%);
+    opacity: 0.8;
+    position: relative;
+
+}
+
+.whitebox {
+    height: 10px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.807);
+    position: absolute;
+}
+
+.pinkdiv {
+
+    background: rgba(232, 0, 155, 0.712);
+    background: linear-gradient(0deg, rgba(232, 0, 155, 0.695) 0%, rgba(255, 30, 113, 0.676) 100%);
+    height: 1110px;
+    width: 280px;
+    margin-left: 1110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.part-1 h1 {
+    margin-top: 50px;
+    color: white;
+    font-size: 60px;
+
+}
+
+.part-1 p {
+    font-size: 10px;
+    color: white;
+    margin-left: 30px;
+
+}
+
+.part-2 img {
+    margin-top: 290px;
+    height: 100px;
+    width: 100px;
+    margin-left: 40px;
+}
+
+.part-2 h1 {
+    color: white;
+}
+
+.part-2 p {
+    color: white;
+    font-size: 10px;
+    margin-left: 40px;
+}
+
+.part-3 img {
+    filter: invert(1);
+    height: 90px;
+    width: 90px;
+    margin-left: 5px;
+
+}
+
+.part-3 h1 {
+    color: white;
+    font-size: 11px;
+}
+
+.text-content {
+    margin-top: 50px;
+}
+
+/* one */
+.pink1 {
+    background-color: rgb(255, 0, 144);
+    width: 10px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+.text-1 {
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.828);
+    height: 40px;
+    width: 90px;
+
+}
+
+.text-1 h1 {
+    color: #cccccc;
+    margin-left: 22px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+}
+
+/* second */
+
+.text-content2 {
+    margin-top: 10px;
+}
+
+.text-2 {
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.828);
+    height: 40px;
+    width: 110px;
+
+}
+
+.text-2 h1 {
+    color: #cccccc;
+    margin-left: 22px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+}
+
+/*third*/
+
+.text-3 {
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.828);
+    height: 40px;
+    width: 130px;
+
+}
+
+.text-3 h1 {
+    color: #cccccc;
+    margin-left: 22px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+}
+
+/* fourth */
+
+.text-4 {
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.828);
+    height: 40px;
+    width: 350px;
+
+}
+
+.text-4 h1 {
+    color: #cccccc;
+    margin-left: 22px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+}
+
+/* endss fourth */
+
+
+
+.main1 {
+    height: 160px;
+    width: 100%;
+    background: rgb(0,191,124);
+background: linear-gradient(90deg, rgba(0,191,124,1) 0%, rgba(0,75,73,1) 50%, rgba(12,191,156,1) 100%);
+    opacity: 0.9;
+    margin-top: 230px;
+
+}
+
+
+
+.main1 h2 {
+
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: 200;
+    margin: 5px 50px;
+    line-height: 100px;
+}
+
+.main1 h1 {
+
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-size: 65px;
+    /* letter-spacing: 20px; */
+    color: aliceblue;
+    font-weight: 100;
+    margin: 5px 50px;
+    line-height: 0px;
+
+}
+
+.content-box {
+    height: 685px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.833);
+}
+
+.heading1 {
+    height: 43px;
+    width: 11px;
+    background-color: rgb(255, 0, 144);
+    margin-left: 60px;
+    margin-top: 90px;
+    position: absolute;
+}
+
+.content-box h2 {
+    height: 35px;
+    width: 190px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 3px;
+    color: aliceblue;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 35px;
+    text-align: center;
+    font-weight: 200;
+
+}
+
+.bbox {
+    height: 300px;
+    width: 900px;
+    background-color: rgba(7, 7, 233, 0);
+
+}
+
+.bbox p {
+    margin-top: 10px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    color: #cccccc;
+    margin-left: 25px;
+
+}
+
+
+.pinkline {
+    height: 43px;
+    width: 11px;
+    background-color: rgb(255, 0, 144);
+
+}
+
+.pinkline h2 {
+    height: 35px;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0);
+    color: aliceblue;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 35px;
+    font-weight: 300;
+
+}
+
+.b1box {
+    height: 100px;
+    width: 500px;
+    background-color: rgba(0, 0, 255, 0);
+
+}
+
+.b1box p {
+    margin-top: 20px;
+    margin-left: 25px;
+    color: #cccccc;
+}
+
+
+
+.foot {
+    /* background-color: rgba(0, 255, 255, 0.498); */
+    background: rgba(0, 201, 131, 0.689);
+    background: linear-gradient(90deg, rgba(0, 201, 131, 0.62) 0%, rgba(0, 135, 130, 0.632) 51%, rgba(33, 196, 163, 0.613) 100%);
+    height: 207px;
+    margin-left: 859px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+
+}
+
+.foot1 h4 {
+    font-size: 19px;
+    color: antiquewhite;
+    text-align: center;
+    font-weight: 100;
+}
+
+.st1 {
+    margin-left: 10px;
+}
+
+.st2 {
+    margin-left: 70px;
+}
+
+.st3 {
+    margin-right: 45px;
+    margin-left: 30px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width:600px){
+
+    
+
+}
